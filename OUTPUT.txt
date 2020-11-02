@@ -1,0 +1,32 @@
+//Jack Mandell
+//jmandel5@u.rochester.edu
+
+//How to run the code:
+//The program can be run on the command line as:
+//java PLTest.java INPUT_SIMPLE.txt
+//and
+//java PLTest.java INPUT_DEGENERATE.txt
+//
+//The results will be displayed to the command line
+
+
+//Output from file INPUT_SIMPLE
+
+Point pair 1: In the same region
+Point pair 2: In the same region
+Point pair 3: Not in the same region. Here is a line segment that separates them: 0.0 0.12  0.23 1.0
+Point pair 4: Not in the same region. Here is a line segment that separates them: 0.796 0.432  0.3 1.0
+Number of external nodes: 12
+Total path length over all paths: 44
+Average path length: 3.66
+
+//Output from file INPUT_DEGENERATE
+
+The line 0.75 0.0  0.75 1.0 trying to be inserted is colinear with line 0.75 0.0  0.75 1.0
+Invalid point combination for a line, points must be different! 0.35 0.45 0.35 0.45
+Point pair 1: Not in the same region. Here is a line segment that separates them: 0.0 0.25  1.0 0.25
+Point pair 2: In the same region
+Point pair 3: Can not compare, one of these points lies on a line!
+Number of external nodes: 20
+Total path length over all paths: 97
+Average path length: 4.84
